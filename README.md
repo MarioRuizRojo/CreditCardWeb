@@ -5,18 +5,18 @@ There is a language selector to change text displayed in the labels, a card edit
 and a credit cards list to manage the saved ones.
 
 ## The main page view
-![Image of main page](https://octodex.github.com/images/yaktocat.png)
+![Image of main page](https://github.com/MarioRuizRojo/CreditCardWeb/blob/master/paginaSinTarjetas.PNG)
 ## The credit card form filled
 Just fill the form and press add button
-![Image of filled form](https://octodex.github.com/images/yaktocat.png)
+![Image of filled form](https://github.com/MarioRuizRojo/CreditCardWeb/blob/master/paginaConTarjetaAcrear.PNG)
 ## The credit cards list with two cards
 It has edit and delete icon buttons
-![Image of credit cards list](https://octodex.github.com/images/yaktocat.png)
+![Image of credit cards list](https://github.com/MarioRuizRojo/CreditCardWeb/blob/master/paginaConListaTarjetas.PNG)
 ## The language selector
 Choose your language
-![Image of language selector](https://octodex.github.com/images/yaktocat.png)
+![Image of language selector](https://github.com/MarioRuizRojo/CreditCardWeb/blob/master/paginaConSelIdioma.PNG)
 
-![Image of choosing lang](https://octodex.github.com/images/yaktocat.png)
+![Image of choosing lang](https://github.com/MarioRuizRojo/CreditCardWeb/blob/master/selectLang1.gif)
 
 ## Running
 

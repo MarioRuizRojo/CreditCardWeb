@@ -1,0 +1,1150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check empty form 1`] = `
+Object {
+  "component": CreditCardEditor {
+    "$$": Object {
+      "after_update": Array [],
+      "before_update": Array [],
+      "bound": Object {},
+      "callbacks": Object {},
+      "context": Map {},
+      "ctx": Array [
+        false,
+        "addcard",
+        false,
+        MyValidator {
+          "errorsToShow": Array [
+            "",
+            "",
+            "",
+            "",
+          ],
+          "passed": Array [
+            false,
+            false,
+            false,
+            false,
+          ],
+          "requiredError": "Required",
+          "validations": Array [
+            MyValidation {
+              "errorMessage": "Should contain only letters",
+              "ruleFormat": /\\(\\[a-zA-Z\\]\\+\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 16 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{16\\}\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should have date format",
+              "ruleFormat": /\\^\\(0\\[1-9\\]\\|1\\[0-2\\]\\)\\\\/\\(\\[0-9\\]\\{2\\}\\)\\$/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 3 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{3\\}\\)/i,
+            },
+          ],
+        },
+        "",
+        "",
+        "",
+        "",
+        "fas fa-circle ",
+        "fas fa-credit-card ",
+        "fas fa-calendar-alt ",
+        "fas fa-key ",
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "dirty": Array [
+        -1,
+      ],
+      "fragment": Object {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": Array [
+        [Function],
+        [Function],
+      ],
+      "on_disconnect": Array [],
+      "on_mount": Array [],
+      "props": Object {},
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+       
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3 svelte-180ga2g"
+          >
+            Add Credit Card
+             
+          </h5>
+           
+          <form>
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformHolderName"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-circle "
+                  data-testid="iconformHolderName"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformHolderName"
+                name="formHolderName"
+                placeholder="Card Holder Name"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformCardNumber"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-credit-card "
+                  data-testid="iconformCardNumber"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformCardNumber"
+                name="formCardNumber"
+                placeholder="Card's Number"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                  data-testid="maindivformExpirationDate"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-calendar-alt "
+                      data-testid="iconformExpirationDate"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="inputformExpirationDate"
+                    name="formExpirationDate"
+                    placeholder="MM/YY"
+                    type="text"
+                  />
+                   
+                </div>
+              </div>
+               
+              <div
+                class="col-lg-5"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-key  svelte-180ga2g"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="cvv"
+                    name="formCvv"
+                    placeholder="CVV"
+                    type="password"
+                  />
+                   
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="submit"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                 
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if onblur triggers validations and it fails 1`] = `
+Object {
+  "component": CreditCardEditor {
+    "$$": Object {
+      "after_update": Array [],
+      "before_update": Array [],
+      "bound": Object {},
+      "callbacks": Object {},
+      "context": Map {},
+      "ctx": Array [
+        false,
+        "addcard",
+        false,
+        MyValidator {
+          "errorsToShow": Array [
+            "",
+            "",
+            "",
+            "Should contain 3 digits",
+          ],
+          "passed": Array [
+            false,
+            false,
+            false,
+            false,
+          ],
+          "requiredError": "Required",
+          "validations": Array [
+            MyValidation {
+              "errorMessage": "Should contain only letters",
+              "ruleFormat": /\\(\\[a-zA-Z\\]\\+\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 16 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{16\\}\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should have date format",
+              "ruleFormat": /\\^\\(0\\[1-9\\]\\|1\\[0-2\\]\\)\\\\/\\(\\[0-9\\]\\{2\\}\\)\\$/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 3 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{3\\}\\)/i,
+            },
+          ],
+        },
+        "",
+        "",
+        "",
+        "wwww",
+        "fas fa-circle ",
+        "fas fa-credit-card ",
+        "fas fa-calendar-alt ",
+        "fas fa-key text-danger ",
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "dirty": Array [
+        -1,
+      ],
+      "fragment": Object {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": Array [
+        [Function],
+        [Function],
+      ],
+      "on_disconnect": Array [],
+      "on_mount": Array [],
+      "props": Object {},
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+       
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3 svelte-180ga2g"
+          >
+            Add Credit Card
+             
+          </h5>
+           
+          <form>
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformHolderName"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-circle "
+                  data-testid="iconformHolderName"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformHolderName"
+                name="formHolderName"
+                placeholder="Card Holder Name"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformCardNumber"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-credit-card "
+                  data-testid="iconformCardNumber"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformCardNumber"
+                name="formCardNumber"
+                placeholder="Card's Number"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                  data-testid="maindivformExpirationDate"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-calendar-alt "
+                      data-testid="iconformExpirationDate"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="inputformExpirationDate"
+                    name="formExpirationDate"
+                    placeholder="MM/YY"
+                    type="text"
+                  />
+                   
+                </div>
+              </div>
+               
+              <div
+                class="col-lg-5"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-key text-danger  svelte-180ga2g"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="cvv"
+                    name="formCvv"
+                    placeholder="CVV"
+                    type="password"
+                  />
+                   
+                  <div
+                    style="color: red;"
+                  >
+                    Should contain 3 digits
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="submit"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                 
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if onblur triggers validations and it pass 1`] = `
+Object {
+  "component": CreditCardEditor {
+    "$$": Object {
+      "after_update": Array [],
+      "before_update": Array [],
+      "bound": Object {},
+      "callbacks": Object {},
+      "context": Map {},
+      "ctx": Array [
+        false,
+        "addcard",
+        false,
+        MyValidator {
+          "errorsToShow": Array [
+            "",
+            "",
+            "",
+            "",
+          ],
+          "passed": Array [
+            false,
+            false,
+            false,
+            true,
+          ],
+          "requiredError": "Required",
+          "validations": Array [
+            MyValidation {
+              "errorMessage": "Should contain only letters",
+              "ruleFormat": /\\(\\[a-zA-Z\\]\\+\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 16 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{16\\}\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should have date format",
+              "ruleFormat": /\\^\\(0\\[1-9\\]\\|1\\[0-2\\]\\)\\\\/\\(\\[0-9\\]\\{2\\}\\)\\$/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 3 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{3\\}\\)/i,
+            },
+          ],
+        },
+        "",
+        "",
+        "",
+        "123",
+        "fas fa-circle ",
+        "fas fa-credit-card ",
+        "fas fa-calendar-alt ",
+        "fas fa-key text-success ",
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "dirty": Array [
+        -1,
+      ],
+      "fragment": Object {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": Array [
+        [Function],
+        [Function],
+      ],
+      "on_disconnect": Array [],
+      "on_mount": Array [],
+      "props": Object {},
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+       
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3 svelte-180ga2g"
+          >
+            Add Credit Card
+             
+          </h5>
+           
+          <form>
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformHolderName"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-circle "
+                  data-testid="iconformHolderName"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformHolderName"
+                name="formHolderName"
+                placeholder="Card Holder Name"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformCardNumber"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-credit-card "
+                  data-testid="iconformCardNumber"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformCardNumber"
+                name="formCardNumber"
+                placeholder="Card's Number"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                  data-testid="maindivformExpirationDate"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-calendar-alt "
+                      data-testid="iconformExpirationDate"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="inputformExpirationDate"
+                    name="formExpirationDate"
+                    placeholder="MM/YY"
+                    type="text"
+                  />
+                   
+                </div>
+              </div>
+               
+              <div
+                class="col-lg-5"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-key text-success  svelte-180ga2g"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="cvv"
+                    name="formCvv"
+                    placeholder="CVV"
+                    type="password"
+                  />
+                   
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="submit"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                 
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`check if subscribe triggers the rendering of the new card to edit 1`] = `
+Object {
+  "component": CreditCardEditor {
+    "$$": Object {
+      "after_update": Array [],
+      "before_update": Array [],
+      "bound": Object {},
+      "callbacks": Object {},
+      "context": Map {},
+      "ctx": Array [
+        false,
+        "editcard",
+        true,
+        MyValidator {
+          "errorsToShow": Array [
+            "",
+            "",
+            "",
+            "",
+          ],
+          "passed": Array [
+            false,
+            false,
+            false,
+            false,
+          ],
+          "requiredError": "Required",
+          "validations": Array [
+            MyValidation {
+              "errorMessage": "Should contain only letters",
+              "ruleFormat": /\\(\\[a-zA-Z\\]\\+\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 16 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{16\\}\\)/i,
+            },
+            MyValidation {
+              "errorMessage": "Should have date format",
+              "ruleFormat": /\\^\\(0\\[1-9\\]\\|1\\[0-2\\]\\)\\\\/\\(\\[0-9\\]\\{2\\}\\)\\$/i,
+            },
+            MyValidation {
+              "errorMessage": "Should contain 3 digits",
+              "ruleFormat": /\\(\\[0-9\\]\\{3\\}\\)/i,
+            },
+          ],
+        },
+        "holderName",
+        "1234561234567890",
+        "11/11",
+        "123",
+        "fas fa-circle ",
+        "fas fa-credit-card ",
+        "fas fa-calendar-alt ",
+        "fas fa-key ",
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "dirty": Array [
+        246,
+      ],
+      "fragment": Object {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": Array [
+        [Function],
+        [Function],
+      ],
+      "on_disconnect": Array [],
+      "on_mount": Array [],
+      "props": Object {},
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+       
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <h5
+            class="title mb-3 svelte-180ga2g"
+          >
+            Add Credit Card
+             
+          </h5>
+           
+          <form>
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformHolderName"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-circle "
+                  data-testid="iconformHolderName"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformHolderName"
+                name="formHolderName"
+                placeholder="Card Holder Name"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="input-group input-group-lg mb-3"
+              data-testid="maindivformCardNumber"
+            >
+              <span
+                class="input-group-text"
+              >
+                <i
+                  class="fas fa-credit-card "
+                  data-testid="iconformCardNumber"
+                />
+              </span>
+               
+              <input
+                class="form-control"
+                data-testid="inputformCardNumber"
+                name="formCardNumber"
+                placeholder="Card's Number"
+                type="text"
+              />
+               
+            </div>
+             
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-7"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                  data-testid="maindivformExpirationDate"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-calendar-alt "
+                      data-testid="iconformExpirationDate"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="inputformExpirationDate"
+                    name="formExpirationDate"
+                    placeholder="MM/YY"
+                    type="text"
+                  />
+                   
+                </div>
+              </div>
+               
+              <div
+                class="col-lg-5"
+              >
+                <div
+                  class="input-group input-group-lg mb-3"
+                >
+                  <span
+                    class="input-group-text"
+                  >
+                    <i
+                      class="fas fa-key  svelte-180ga2g"
+                    />
+                  </span>
+                   
+                  <input
+                    class="form-control"
+                    data-testid="cvv"
+                    name="formCvv"
+                    placeholder="CVV"
+                    type="password"
+                  />
+                   
+                </div>
+              </div>
+            </div>
+             
+            <div
+              class="d-grid gap-2"
+            >
+              <button
+                class="btn btn-success btn-lg"
+                data-testid="submit"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fas fa-database"
+                />
+                 
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

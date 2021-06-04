@@ -1,0 +1,19 @@
+{
+    "addcard": "Add Credit Card",
+    "loading": "Loading...",
+    "placeholdercardholdername": "Card Holder Name",
+    "placeholdercardsnumber": "Card's Number",
+    "placeholderdate": "MM/YY",
+    "placeholdercvv": "CVV",
+    "add": "Add",
+    "required": "Required",
+    "onlyletters": "Should contain only letters",
+    "should16dig": "Should contain 16 digits",
+    "shoulddateform": "Should have date format",
+    "should3dig": "Should contain 3 digits",
+    "savechanges": "Save Changes",
+    "creditcards": "Credit Cards",
+    "creditcardapp": "Credit Cards App",
+    "selectlang": "Select language",
+    "editcard": "Edit Credit Card"
+}

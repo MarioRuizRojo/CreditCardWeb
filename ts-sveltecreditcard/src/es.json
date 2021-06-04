@@ -1,0 +1,19 @@
+{
+    "addcard": "Añadir tarjeta de credito",
+    "loading": "Cargando...",
+    "placeholdercardholdername": "Titular",
+    "placeholdercardsnumber": "Numero de la Tarjeta",
+    "placeholderdate": "MM/YY",
+    "placeholdercvv": "CVV",
+    "add": "Añadir",
+    "required": "Requerido",
+    "onlyletters": "Debe contener solo letras",
+    "should16dig": "Debe contener 16 digitos",
+    "shoulddateform": "Debe tener formato de fecha",
+    "should3dig": "Debe contener 3 digitos",
+    "savechanges": "Guardar Cambios",
+    "creditcards": "Tarjetas de Credito",
+    "creditcardapp": "App Tarjetas Credito",
+    "selectlang": "Selecciona idioma",
+    "editcard": "Editar tarjeta de credito"
+}

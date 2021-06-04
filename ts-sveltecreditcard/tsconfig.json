@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": [
+    "src/**/*",
+    "./jest-setup.ts"
+  ],
+  "exclude": [
+    "src/SvelteComponentsDocs/*",
+    "src/TestDoc/*",
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ],
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ],
+    "resolveJsonModule": true
+  }
+}
